@@ -1,0 +1,31 @@
+body{background-color: salmon;
+font-family: 'Lato',sans-serif;
+}
+
+h1{ font-size: 50px;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 28px;
+}
+p{
+    font-size: 17px;
+}
+p strong{
+    background-color: orchid;
+    color: white;
+    font-style: italic;
+}
+strong{
+    color: green;
+}
+.parrafo-destacado{
+    color: yellowgreen;
+    font-size: 38px;
+    line-height: 38px;
+}
+parrafo-destacado em{
+    color: white;
+    text-transform: uppercase;
+}
