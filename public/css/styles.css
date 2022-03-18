@@ -1,31 +1,33 @@
-body{background-color: salmon;
-font-family: 'Lato',sans-serif;
+header{
+    background-color: #EAC926;;
 }
-
-h1{ font-size: 50px;
-    font-weight: 300;
+top-header p{
+text-align: center;
 }
-
-h2 {
-    font-size: 28px;
+body{
+font-family: 'Robot';
+font-size: 12px;
 }
-p{
-    font-size: 17px;
+header nav ul{
+    padding: 10px 0;
+   
+  }
+  
+header nav ul li{
+  list-style-type: none;
 }
-p strong{
-    background-color: orchid;
-    color: white;
-    font-style: italic;
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+  }
+header button.bars-menu {
+border-radius: 5px;
+background-color: #03264c;
+color: white;
+padding: 10px;
+font-size: 20px;
 }
-strong{
-    color: green;
-}
-.parrafo-destacado{
-    color: yellowgreen;
-    font-size: 38px;
-    line-height: 38px;
-}
-parrafo-destacado em{
-    color: white;
-    text-transform: uppercase;
-}
+header .button-container{
+    text-align: center;
+    padding: 10px;
+    }
