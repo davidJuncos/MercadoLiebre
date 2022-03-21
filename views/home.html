@@ -5,20 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bienvenidos a MercadoLiebre</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"  />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bangers&display=swap">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="/css/styles.css">
+
 </head>
     <body>
     <header>
         <div class="top-header">
 
-        <img src="/images/logo-mercado-liebre.svg" width="360" alt="logo de mercado libre">
-        <div> <input type="text" placeholder="Busca aquí"></div>
-        <p> Compra en cuotas y sin targeta de crédito </p>
-
-    </div>
+            <img src="/images/logo-mercado-liebre.svg" width="360" alt="logo de mercado libre">
+            <div> 
+                <input type="text" placeholder="Busca aquí">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <p ><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+        </div>
         <nav>
             <ul>
                 <li>Ofertas</li>
@@ -27,30 +31,25 @@
                 <li>Ayuda</li>
             </ul>
             <ul>
-                <li>
-                    <a href="">Crea tu cuenta
+                <li><a href="">Crea tu cuenta
                         <i class="far fa-address-card"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="">Ingresar
-                        <i class="far fa-address-card"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="">Mis compras
-                        <i class="far fa-address-card"></i>
-                    </a>
-                </li>
-                
+                </a></li>
+                <li><a href="">Ingresar
+                    <i class="fas fa-sign-out-alt"></i>
+                </a></li>
+                <li><a href="">Mis compras
+                    <i class="fas fa-shopping-basket"></i>
+                </a></li>
             </ul>
         </nav>
-        <button>
-            <i class="https://cssbuttongenerator.com/"></i> 
-        </button>
+        <div class="button-container">
+            <button class="Bars-menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
     </header>
-    <section>
-        <img src="/images/img-home-banner.jpg" width="360" alt="imagen de banner">
+    <section class="Banner">
+        <img src="/images/img-home-banner.jpg" width="100%" alt="imagen de banner">
     </section>
 
     <main>
@@ -86,26 +85,43 @@
     <footer>
 
         <ul> 
+            <div class="iconos-footer">  
+                <i class="fas fa-credit-card"></i>
+            </div> 
             <li><h3>Pagá con tarjeta o en efectivo</h3></li>
             <p>Con Mercado Libre Cash, tenés cuotas sin interes con tarjeta o efectivo en puntos de pago.¡Y Siempre es seguro!</p>
+            
+            <div class="iconos-footer">  
+                <i class="fas fa-gift"></i>
+            </div>   
             <li><h3>Envio gratis desde $ 2.500</h3></li>
             <p>Solo por estar registrada en Mercado Libre tenés envíos gratis en miles de productos. Es un beneficio de Marcado Puntos.</p>
+            <div class="iconos-footer"> 
+                <i class="fas fa-user-shield"></i>
+            </div>      
             <li><h3>Seguridad, de principio a fin</h3></li>
             <p>¿No te gusta?¡Devolvelo! En MercadoLiebre, no hay nada que no puedas hacer, porque estás siempre protegido.</p>
             <li><h3>Copyright c 1999-2020 MarcadoLiebre S.R.L.</h3></li>
         </ul>
         <section>
-        <ol> 
-            <h2>Mockup del micro desafio:</h2>
-            <li><h3>Pagá con tarjeta o en efectivo</h3></li>
-            <p>Con MercadoLiebreCash tenés <strong> cuotas sin interés con tarjeta </strong> o efectivo en puntos de pago.¡Y siempre es segiro!.</p>
-            <li><h3>Envío gratis desde los 2.500</h3></li>
-            <p>Solo por estar registrador en Mercado Liebre tenes envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
-            <li><h3>Seguridad de princio a fin.</h3></li>
-            <p><em>¿No te gusta?</em> ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer porque estás siempre protegida.</p>
-            <p></p>
-            <p class="parrafo-destacado">Copyrigth @ 1999-2020 MercadoLiebre S.R.L.</p>
-        </ol>
+        
+            <div>
+                <h2>Mockup del micro desafio:</h2>
+                <li><h3>Pagá con tarjeta o en efectivo</h3></li>
+                <p>Con MercadoLiebreCash tenés <strong> cuotas sin interés con tarjeta </strong> o efectivo en puntos de pago.¡Y siempre es segiro!.</p>
+            </div>
+            
+            <div>
+                <li><h3>Envío gratis desde los 2.500</h3></li>
+                <p>Solo por estar registrador en Mercado Liebre tenes envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+            </div>
+            <div>
+                <h4 class="subtitulo-footer"><b>Seguridad, de principio a fin</b></h4>
+                <p><em>¿No te gusta?</em> ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer porque estás siempre protegida.</p>
+                <p></p>
+                <p class="parrafo-destacado">Copyrigth @ 1999-2020 MercadoLiebre S.R.L.</p>
+            </div>
+       
         </section>
     </footer>
     

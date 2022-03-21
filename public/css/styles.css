@@ -1,7 +1,7 @@
 header{
     background-color: #EAC926;;
 }
-top-header p{
+.top-header p{
 text-align: center;
 }
 body{
@@ -20,14 +20,26 @@ header nav ul li a{
     text-decoration: none;
     color: black;
   }
-header button.bars-menu {
+
+header .button-container{
+    text-align: center;
+    padding: 10px;
+    }
+
+header .button-container button.bars-menu{
+text-align: center;
 border-radius: 5px;
 background-color: #03264c;
 color: white;
 padding: 10px;
 font-size: 20px;
 }
-header .button-container{
+
+
+footer buger-menu{
     text-align: center;
-    padding: 10px;
-    }
+    
+}
+footer buger-menu titulos{
+    font-weight: bold;
+}
